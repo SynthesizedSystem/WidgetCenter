@@ -22,3 +22,10 @@
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
 #include <Windows.h>
+
+#include <d3d11.h>
+#include <dxgi1_3.h>
+#include <wrl.h>
+#include <DirectXMath.h>
+
+#include "core/logger.h"
